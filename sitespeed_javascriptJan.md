@@ -121,7 +121,7 @@ module.exports = async function(context, commands) {
 # Wrap Up
  
  ## Metrics have feelings too - video capture of the the page as loaded during the test run.   
- It records an mp4, this is just a gif of one recording. The timning event overlays in sync as it occurs.
+ It records an mp4, this is just a gif of one recording. The timing events overlay in sync as they occur.
    
    ![gif](https://raw.githubusercontent.com/jordo1138/Javascript-January-2020/master/content/sitespeedsm.gif)
 
