@@ -2,7 +2,7 @@
 ## Every user loves speed.  
 We all want faster, more reliable user experiences. JavaScript is at the heart of most web experiences and much tooling and books/blog posts have come out of the need to keep experiences fast and reliable for users. The awesome explosion of frameworks has also meant an explosion of JS and third-party JS on pages, which increased *700%* from 2011-2018, the same time frame we went from 2G to LTE.   
   
-  But it's not just JavaScript that effects performance so why bring it up here? By the end of the post I hope you'll see the power of unifying the story on performance for a shared audience when your goal is to improve the user experience. Overall perf improvements can rarely happen in a vaccuum of highly dependent frameworks and platforms.
+  But it's not just JavaScript that effects performance so why bring it up here? By the end of the post I hope you'll see the power of unifying the story on performance for a shared audience when your goal is to improve the user experience. Overall perf improvements can rarely happen in a vacuum of highly dependent frameworks and platforms.
 
 The open source tooling to track and benchmark the user experience has improved so much in the same time that I want to focus on a few of the newer timing metrics beyond the normal w3c timings we've had for years.  You don't have to work on a performance team to have a performance driven plan for your application. 
 
@@ -113,7 +113,7 @@ module.exports = async function(context, commands) {
   
   ![img](https://raw.githubusercontent.com/jordo1138/Javascript-January-2020/master/content/comments_count_custom_metric.png)
 
-* **Waterfall** the waterfall with all timings and http headers are here as well! Incredible detail for finding out intermittant issues in your stack 
+* **Waterfall** the waterfall with all timings and http headers are here as well! Incredible detail for finding out intermittent issues in your stack 
   
   ![img](https://raw.githubusercontent.com/jordo1138/Javascript-January-2020/master/content/cut_waterfall_lcp.png)
 
