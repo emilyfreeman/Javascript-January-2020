@@ -113,7 +113,9 @@ module.exports = async function(context, commands) {
   
   ![img](https://raw.githubusercontent.com/jordo1138/Javascript-January-2020/master/content/comments_count_custom_metric.png)
 
-
+* **Waterfall** the waterfall with all timings and http headers are here as well! Incredible detail for finding out intermittant issues in your stack 
+  
+  ![img](https://raw.githubusercontent.com/jordo1138/Javascript-January-2020/master/content/cut_waterfall_lcp.png)
 
 
 
