@@ -137,11 +137,11 @@ Good news! Sitespeedio also puts feelings behind your metrics. When you gather e
 Hopefully this has been a helpful intro into to new metrics and tools that will help you become a performance minded js developer and user!
 The tools here integrate with so much more and there's plenty of discovery left for you to do.
 
-Special Thanks to Sitespeed.io creator Peter Hedenskog tw: @soulislove   
-and thanks to Emily Freeman tw: @editingemily for running JavaScript January
+Special Thanks to Sitespeed.io creator [Peter Hedenskog](https://twitter.com/soulislove)
+and to [Emily Freeman](https://twitter.com/editingemily) for running JavaScript January
 ## Other Helpful Links
-* Sitespeed.io
-* Webpagetest.org
+* [Sitespeed.io](https://sitespeed.io)
+* [WebPageTest](https://webpagetest.org)
 * https://www.w3.org/TR/navigation-timing-2/
   
 
