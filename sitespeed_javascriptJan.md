@@ -9,12 +9,13 @@ The open source tooling to track and benchmark the user experience has improved 
 In general you can think of performance tracking as split into two halves of the same circle; there's the *real user instrumentation* or monitoring (RUM) which has been around in many forms for years as JS snippets or libaries like Boomerang.js et al to capture the timings available at the user browser/mobile app level and then there is the *synthetic benchmark*, which gives you consistant signal for tracking changes to your app overtime while holding the environment details steady.  
 ## Enter <nolink>: https://sitespeed.io
 
-Here's where Sitespeedio comes in, it's an open source benchmarking suite of tools that I stumbled upon years ago when I was running Newegg.com and it's become invaluable tool to tell the story of a website's performance and content changes over time. 
+Here's where Sitespeedio comes in, it's an open source benchmarking suite of tools that I stumbled upon years ago when I was running Newegg.com and it's become an invaluable tool to tell the story of a website's performance and content changes over time. 
 Let's go through getting an environment setup to see how easy it is to get started.
 For the sake of this post I want to focus on a few of the newer timings metrics that matter with JavaScript: *First Input Delay*, *Contentful Speed Index*, *Visual Change Time*, *ScriptDuration*, *JSHeapUsedSize* among others. We'll also see how to use JS to drive Sitespeed.io through the user journey and capture new metrics along the way that will tell a unified performance story for every audience beyond JS developers alone.
 
-## Docker 
+## Grafana & Graphite Environment Setup
 Sitespeed.io has great getting started guides, and what you'll see here is abbreviated get straight to work with the benchmarks you'll see today. The docker format really works well here as the container lives the life of the test and packages many many dependencies and tools used to gather all kinds of amazing stuff like Chrome, Firefox, Browsertime and more.
+ This compose file is from sitespeed.io to get Graphite and Grafana up and running.    *Note: neither of these are dependencies to use sitespeed.io as you will see, but can work together well for further trend analysis*
 ~~~bash
 curl -O https://raw.githubusercontent.com/sitespeedio/sitespeed.io/master/docker/docker-compose.yml
 //get things running quickly, but take a peek at the yml to see what you will be running
